@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # vllm bench serve — concurrency sweep against a remote server.
-# Run this from a machine that is NOT the GPU box (or at least a separate process).
 set -euo pipefail
 
 BASE_URL="${BASE_URL:-http://10.68.0.39:30616}"
@@ -16,7 +15,6 @@ DRY_SECONDS="${DRY_SECONDS:-5}"
 
 mkdir -p "$OUT_DIR" "$METRICS_DIR"
 
-# ------------------------------------------------------------ metrics capture
 # Polls engine /metrics via the NodePorts (32000 decode, 32001 prefill) in the
 # background while benches run. Raw dumps = post-process later, not eyeballed.
 CAPTURE_PID=
