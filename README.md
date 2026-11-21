@@ -1,4 +1,4 @@
-# Understanding Performance Characteristics and Design Choices in LLM Serving Systems
+# CS5903: Distributing AI Training  - Project
 
 ## Overview
 
