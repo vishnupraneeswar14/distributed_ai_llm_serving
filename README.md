@@ -74,7 +74,7 @@ The workflow includes a warm-up run and prefix-cache state resets between concur
 | `src/benchmark/llmd_pd_bench.sh` | Benchmarks the prefill-decode disaggregated llm-d configuration. |
 | `src/benchmark/kv_bench.sh` | Benchmarks quantized KV-cache configuration. |
 
-## Deliverables and Handover
+## Deliverables 
 
 - **Project report:** [`docs/Project_Report.pdf`](docs/Project_Report.pdf)
 - **Architecture Decision Records:** [`docs/Architecture_Decision_Records.md`](docs/Architecture_Decision_Records.md)
